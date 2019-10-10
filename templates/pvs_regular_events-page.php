@@ -11,7 +11,7 @@ Template Name: PVS Regular Events
 
 <main id="maincontent" role="main">
 
-	<header>
+	<header id="days_menu">
 		<?php pvs_day_menu_hook(); ?>
 		<h1 class="entry-title">
 			<?php the_title(); ?>

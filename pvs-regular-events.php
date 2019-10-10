@@ -1,12 +1,12 @@
 <?php
 /**
- * @package PVS Regular Regular Events
+ * @package PVS Regular Events
  * @version 1.0
  */
 /*
-Plugin Name: PVS Regular Regular Events
+Plugin Name: PVS Regular Events
 Plugin URI: http://suesdesign.co.uk/
-Description: PVS regular Regular Events listing by day of the week
+Description: PVS Regular Events listing by day of the week
 Author: Sue Johnson
 Version: 1.0
 Author URI: http://suesdesign.co.uk/
