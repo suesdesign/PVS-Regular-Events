@@ -138,7 +138,8 @@ function pvs_days_menu() {
 		$days_of_week .= '<li><a class="'
 			. $class
 			.'" href="' 
-			. get_site_url()
+			//. get_site_url()
+			. get_home_url()
 			. '/day-of-the-week/'
 			. $day
 			. '/">'
