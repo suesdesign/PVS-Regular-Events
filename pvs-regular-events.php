@@ -153,13 +153,14 @@ function pvs_days_menu() {
 	} else {
 		$days_class = 'other';
 	}
-	$str =  '<ul class="days-menu"><li><a class = "'
+	$str =  '<div class="days-menu-container">'
+		. '<ul class="days-menu container"><li><a class = "'
 		. $days_class
 		. '" href="' 
 		. get_site_url() 
 		. '/regular-events/">All Days</a></li>'
 		. $days_of_week
-		. '</ul>';
+		. '</ul></div>';
 	echo $str;
 }
 
