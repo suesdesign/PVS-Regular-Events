@@ -138,7 +138,6 @@ function pvs_days_menu() {
 		$days_of_week .= '<li><a class="'
 			. $class
 			.'" href="' 
-			//. get_site_url()
 			. get_home_url()
 			. '/day-of-the-week/'
 			. $day
@@ -147,7 +146,7 @@ function pvs_days_menu() {
 			. '</a></li>';
 	}
 	$permalink = get_permalink();
-	$days_url = get_site_url() . '/regular-events/';
+	$days_url = get_home_url() . '/regular-events/';
 	if ( $permalink ===  $days_url) {
 		$days_class = 'current';
 	} else {
